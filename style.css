@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ff9393;
+  font-family: "Sacramento", cursive;
+  padding: 25px 0px;
+}
+
+body {
+  background: #abffab;
+  font-family: "Sacramento", cursive;
+  font-size: 35px;
+}
+
+.score-board {
+  border: 3px solid white;
+  width: 200px;
+  margin: 25px auto;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.badge {
+  background: #ffa667;
+  font-size: 20px;
+}
+
+#user-label {
+  position: absolute;
+  top: 13px;
+  left: -14px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 13px;
+  right: -15px;
+}
+
+.result {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 550;
+}
+
+.choices {
+  text-align: center;
+  margin: 35px auto;
+}
+
+.choice {
+  display: inline-block;
+  margin: auto 8px;
+  transition: all 1s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: #8dff8d;
+}
+
+#action-message {
+  text-align: center;
+  font-size: 45px;
+  margin-top: -20px;
+}
